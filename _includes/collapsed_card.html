@@ -1,0 +1,14 @@
+<div class="card mb-3">
+    <h5 class="card-header">
+        <a class="collapsed d-block" data-toggle="collapse" href="#collapse-collapsed-{{include.id}}" aria-expanded="true" aria-controls="collapse-collapsed-{{include.id}}" id="heading-collapsed-{{include.id}}">
+            <i class="fa fa-chevron-down float-right"></i>
+{{include.title}}
+        </a>
+    </h5>
+    <div id="collapse-collapsed-{{include.id}}" class="collapse" aria-labelledby="heading-collapsed-{{include.id}}">
+        <div class="card-body">
+{{include.content}}
+        </div>
+    </div>
+</div>
+

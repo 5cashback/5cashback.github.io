@@ -1,0 +1,4 @@
+exclude: ["scripts","vendor"]
+name: "5cashback"
+navigation: []
+ga_tracking_id: UA-90395408-2

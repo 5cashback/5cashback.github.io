@@ -1,0 +1,9 @@
+<div class="btn-group btn-group-lg btn-group-toggle d-flex mb-3" data-toggle="buttons">
+  {% include quarter_selector_button.html id=1 y=site.data.now.Year q=1 %}
+  {% include quarter_selector_button.html id=2 y=site.data.now.Year q=2 %}
+  {% include quarter_selector_button.html id=3 y=site.data.now.Year q=3 %}
+  {% include quarter_selector_button.html id=4 y=site.data.now.Year q=4 %}
+  {% assign next_year = site.data.now.Year | plus:1 %}
+  {% include quarter_selector_button.html id=5 y=next_year q=1 %}
+</div>
+
