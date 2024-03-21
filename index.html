@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% include quarter_selector.html %}
+
+{% for card in site.data.cards %}
+  {% if card.is_visible and card.is_quarterly and card.is_available %}
+    {% include credit_card_minimal.html card=card %}
+    <hr>
+  {% endif %}
+{% endfor %}
+
+{% for card in site.data.cards %}
+  {% if card.is_visible and card.is_quarterly != true and card.is_available %}
+    {% include credit_card_minimal.html card=card %}
+    <hr>
+  {% endif %}
+{% endfor %}
+
+{% for card in site.data.cards %}
+  {% if card.is_visible and card.is_quarterly != true and card.is_available != true %}
+    {% include credit_card_minimal.html card=card %}
+    <hr>
+  {% endif %}
+{% endfor %}
+
+{% include references.html %}
+
+{% include disclaimer.html %}

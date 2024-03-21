@@ -1,0 +1,128 @@
+- name: Discover It
+  is_visible: true
+  is_quarterly: true
+  is_available: true
+  card_img: discover_it.png
+  apply_url: https://refer.discover.com/s/MAX052
+  apply_caption: No annual fee, and get a $50 statement credit after making a purchase in the first 3 months
+  activate_url: https://www.discover.com/credit-cards/cashback-bonus/cashback-calendar.html
+  rewards: discover
+  benefits:
+    - Price protection for up to $500 on eligible items if you find a lower price at any store within 90 days of purchase
+    - Purchase protection on new purchases for 90 days against damage or theft up to $500 per claim
+    - Extended warranty of US manufacturer's warranty for up to an additional year, on eligibile warranties of 36 months or less
+    - Discover will match all cash back earned in the first 12 months
+  references:
+    - url: https://www.discover.com/credit-cards/cash-back/it-card.html
+      text: Discover It website
+    - url: https://www.discover.com/credit-cards/cashback-bonus/cashback-calendar.html
+      text: Discover It calendar
+- name: Chase Freedom & Freedom Flex
+  is_visible: true
+  is_quarterly: true
+  is_available: true
+  card_img: chase_freedom.png
+  apply_url: https://www.referyourchasecard.com/18/QXOS04V82Y
+  apply_caption: No annual fee, and get a $150 bonus after spending $500 in purchases in the first 3 months
+  activate_url: https://creditcards.chase.com/freedom/activate 
+  rewards: chase_freedom
+  benefits:
+  - Purchase protection on new purchases for 120 days against damage or theft up to $500 per claim
+  - Extended warranty of US manufacturer's warranty by an additional year, on eligible warranties of three years or less
+  references:
+  - url: https://creditcards.chase.com/cash-back-credit-cards/chase-freedom
+    text: Chase Freedom website
+  - url: https://creditcards.chase.com/freedom/calendarreminder
+    text: Chase Freedom calendar
+- name: CapitalOne Savor One Rewards
+  is_visible: true
+  is_quarterly: false
+  is_available: true
+  card_img: c1_savorone.png
+  rewards: c1_savorone
+  benefits: []
+  references:
+    - url: https://www.capitalone.com/credit-cards/savorone-dining-rewards/
+      text: CapitalOne SavorOne Rewards Credit Card website
+- name: Chase Freedom Unlimited
+  is_visible: true
+  is_quarterly: false
+  is_available: true
+  card_img: chase_freedom_unlimited.png
+  apply_url: https://www.referyourchasecard.com/18/QXOS04V82Y
+  apply_caption: No annual fee, and get a $200 bonus after spending $500 in purchases in the first 3 months
+  rewards: chase_freedom_unlimited
+  benefits:
+    - Purchase protection on new purchases for 120 days against damage or theft up to $500 per claim
+    - Extended warranty of US manufacturer's warranty by an additional year, on eligible warranties of three years or less
+  references:
+    - url: https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited
+      text: Chase Freedom Unlimited website
+- name: American Express Blue Cash Everyday
+  is_visible: true
+  is_quarterly: false
+  is_available: true
+  card_img: blue_cash_everyday.png
+  apply_url: http://refer.amex.us/MAXP0f6s?XLINK=MYCP
+  apply_caption: No annual fee, and earn $200 back after spending $1,000 in purchases in the first 3 months
+  rewards: amex_bluecash_everyday
+  benefits:
+  - Purchase protection on new purchases for 90 days
+  - Extended warranty of US manufacturer's warranty by an additional year, on eligible warranties of five years or less
+  - Return protection for purchases made within 90 days, limited to $300 per item and $1,000 per calendar year
+  references:
+  - url: https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/
+    text: American Express Blue Cash Everyday website
+  - url: https://www.americanexpress.com/us/credit-cards/features-benefits/policies/purchase-protection-terms.html
+    text: American Express Purchase Protection Terms
+- name: PayPal Cashback Mastercard
+  is_visible: true
+  is_quarterly: false
+  is_available: true
+  card_img: paypal_cashback_mastercard.png
+  rewards: paypal_cashback_mastercard
+  benefits: []
+  references:
+    - url: https://www.paypal.com/us/digital-wallet/manage-money/paypal-cashback-mastercard
+      text: PayPal Cashback Mastercard website
+- name: Amazon Visa Signature
+  is_visible: true
+  is_quarterly: false
+  is_available: true
+  card_img: amazon_visa.png
+  apply_url: https://www.amazon.com/dp/B007URFTYI
+  apply_caption: No annual fee, and get a $50 Amazon.com gift card upon approval
+  rewards: amazon_rewards_visa
+  benefits:
+  - Purchase protection on new purchases for 120 days against damage or theft up to $500 per claim
+  - Extended warranty of US manufacturer's warranty by an additional year, on eligible warranties of three years or less
+  references:
+  - url: https://www.amazon.com/dp/B007URFTYI
+    text: Amazon Rewards Visa Signature Card detail page
+  - url: https://www.amazon.com/b/?ie=UTF8&node=14770627011
+    text: Amazon Rewards Visa Signature Card Benefits
+- name: TD Cash Credit Card
+  is_visible: false
+  is_quarterly: false
+  is_available: true
+  card_img: td_cash.jpg
+  apply_url: https://www.td.com/us/en/personal-banking/credit-cards/cash-card/
+  apply_caption: No annual fee, and earn $150 Cash Back when you spend $500 within 90 days after account opening
+  rewards: td_cash
+  benefits: []
+  references:
+    - url: https://www.td.com/us/en/personal-banking/credit-cards/cash-card/
+      text: TD Cash Credit Card website
+- name: Bank of America Cash Rewards
+  is_visible: false
+  is_quarterly: false
+  is_available: false
+  card_img: boa_cash_rewards.png
+  apply_url: https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/
+  apply_caption: No annual fee, and get a $150 bonus after making at least $500 in purchases in the first 90 days
+  rewards: boa_cash_rewards
+  benefits:
+    - Temporary credit card number generation using ShopSafe for online shopping security
+  references:
+    - url: https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/
+      text: Bank of America Cash Rewards website

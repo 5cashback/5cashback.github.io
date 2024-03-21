@@ -1,0 +1,38 @@
+Year,Quarter,Percent,Category
+2021,1,5,Grocery Stores
+2021,1,5,Walgreens
+2021,1,5,CVS
+2021,2,5,Gas Stations
+2021,2,5,Wholesale Clubs
+2021,2,5,Select Streaming Services
+2021,3,5,Restaurants
+2021,3,5,PayPal
+2021,4,5,Amazon.com
+2021,4,5,Walmart.com
+2021,4,5,Target.com
+,,1,All other purchases
+2022,1,5,Grocery Stores
+2022,1,5,Fitness club and gym memberships
+2022,2,5,Gas Stations
+2022,2,5,Target
+2022,3,5,Restaurants
+2022,3,5,PayPal
+2022,4,5,Amazon.com
+2022,4,5,"Digital wallets (Apple Pay, Google Pay, Samsung Pay, Garmin Pay)"
+2023,1,5,Grocery Stores
+2023,1,5,Drug Stores
+2023,1,5,Select Streaming Services
+2023,2,5,Restaurants
+2023,2,5,Wholesale Clubs
+2023,3,5,Gas Stations
+2023,3,5,Digital wallets
+2023,4,5,Amazon.com
+2023,4,5,Target
+2024,1,5,Restaurants 
+2024,1,5,Drug Stores
+2024,2,5,Gas Stations & Electric Vehicle Charging Stations
+2024,2,5,Home Improvement Stores
+2024,2,5,Public Transit
+2024,3,5,TBA
+2024,4,5,TBA
+2025,1,5,TBA

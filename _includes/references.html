@@ -1,0 +1,13 @@
+{% capture card_references %}
+<ol>
+    {% for card in site.data.cards %}
+    {% for reference in card.references %}
+    {% if card.is_visible %}
+    <li><a href="{{reference.url}}">{{reference.text}}</a></li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</ol>
+{% endcapture %}
+
+{% include collapsed_card.html id="references" title="References" content=card_references %}

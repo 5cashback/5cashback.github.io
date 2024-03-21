@@ -1,0 +1,7 @@
+<label class="btn btn-secondary w-100 {{button_disabled}}" id="quarter{{include.id}}label">
+  <input type="radio" name="options" id="quarter{{include.id}}" autocomplete="off">
+  {% if include.y > site.data.now.Year %}
+  {{ include.y }}
+  {% endif %}
+  Q{{include.q}}
+</label>
